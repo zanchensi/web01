@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春節風格 - 商業化微調方案</title>
+<link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: #fcf8f2; /* 淺米色背景，讓紅框更突出 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .box01 {
+            width: 400px;
+            height: 400px;
+            /* 商業化配色：採用漸層朱紅，增加立體感 */
+            background: linear-gradient(145deg, #d32f2f, #b71c1c);
+            
+            margin: 50px;
+            padding: 50px;
+            box-sizing: border-box;
+
+            /* 圓角稍微收斂，顯得更精緻 */
+            border-radius: 8px;
+            
+            /* 金屬質感邊框：春節必備金色元素 */
+            border: 2px solid #d4af37;
+
+            /* 陰影調修：使用深紅棕色代替純黑，會更高級 */
+            box-shadow: 0 15px 35px rgba(139, 0, 0, 0.3);
+
+            /* 字體設計 */
+            color: #f9e4b7; /* 淺奶油金，比純白更有質感 */
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.8;
+            letter-spacing: 2px;
+            font-family: "Microsoft JhengHei", sans-serif;
+
+            /* 動態時間微調：2s太久會顯得遲鈍，商業設計通常在0.3s-0.6s之間 */
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* 增加一個裝飾性的紅包感（光澤效果） */
+        .box01::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            transition: 0.5s;
+        }
+
+        .box01:hover {
+            /* 懸停時顏色加深，並強化金色邊框感 */
+            background: linear-gradient(145deg, #b71c1c, #8e0000);
+            border-color: #ffdf00;
+
+            /* 商業化的位移通常是輕微的「浮起」感 */
+            transform: translateY(-10px);
+
+            /* 陰影隨高度增加而擴散 */
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+
+            /* 字體微亮 */
+            color: #ffffff;
+            letter-spacing: 3px;
+        }
+
+        .box01 p {
+            margin: 0;
+            /* 模擬書法落款的感覺 */
+            border-left: 3px solid #d4af37;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box01">
+        <p>
+            留言板要在作品發生路線，交通看看想要正好，建築笑話採訪，昨日兩個，降價住了，上。
+        </p>
+    </div>
+</body>
+
+</html>

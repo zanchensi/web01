@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 和 css練習</title>
+    <style>
+        .box01:hover {
+            /* 藍色 -> 紫色 -> 洋紅色 (三段式漸層) */
+            background: linear-gradient(135deg, #4158D0, #C850C0, #FFCC70);
+            transform: scale(1.5) rotate(95deg);
+            transition: transform 3s;
+        }
+
+        .box02:hover {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            transform: scale(1.8) rotate(270deg);
+            transition: transform 2.5s;
+
+        }
+
+        .box03:hover {
+            transform: scale(1.2) translateX(20px) translateY(50px);
+            transition: transform 2s;
+            padding-left: 100px;
+        }
+
+        .box04:hover {
+            transform: translateX(20px) translateY(50px);
+            transition: transform 2s;
+            box-shadow: 15px 20px 25px 22px rgb(56, 217, 7);
+            border-radius: 100px;
+        }
+
+        .box05:hover {
+            transform: translateX(-20px) translateY(-50px);
+            transition: transform 2s;
+            border-radius: 0;
+        }
+
+        .box01 {
+            width: 200px;
+            height: 200px;
+            /* background-color: #797979; */
+            background: linear-gradient(45deg, #0b71d7, rgb(92, 12, 66));
+
+
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            box-sizing: border-box;
+
+            border-radius: 10px;
+            box-shadow: -7px 6px 5px 2px #ed1207;
+
+            color: rgb(4, 27, 235);
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+        .box02 {
+            width: 200px;
+            height: 200px;
+            /* background-color: #ffba6b; */
+            /* 亮藍色 -> 鮮豔紫紅色 */
+            background: linear-gradient(45deg, #007cf0, #b620e0);
+
+
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            box-sizing: border-box;
+
+            border-radius: 30px;
+            box-shadow: 4px 2px 10px 2px #a406e8;
+
+            color: rgb(5, 66, 19);
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+
+
+        .box03 {
+            width: 200px;
+            height: 200px;
+
+            /* 天藍色 -> 亮粉紫色 */
+            background: linear-gradient(45deg, #6dd5fa, #ff758c);
+            /* background-color: #88386b; */
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            box-sizing: border-box;
+
+            border-radius: 10px;
+            box-shadow: 20px -20px 20px 2px #cce10b;
+
+            color: rgb(236, 36, 156);
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+        .box04 {
+            width: 200px;
+            height: 200px;
+            /* background-color: #cc2247; */
+            /* 鮮明藍色 -> 柔和藍紫色 */
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            box-sizing: border-box;
+
+            border-radius: 10px;
+            box-shadow: 10px 10px 2px 2px #08a647;
+
+            color: rgb(55, 179, 227);
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+
+        .box05 {
+            width: 200px;
+            height: 200px;
+            /* background-color: #99ba6b; */
+            /* 深邃靛藍 -> 鮮艷青綠色 */
+            background: linear-gradient(45deg, #0f172a, #2dd4bf);
+
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            box-sizing: border-box;
+
+            border-radius: 100px;
+            box-shadow: -20px -20px 2px 2px #f056a0;
+
+            color: rgb(235, 238, 39);
+            font-size: 12px;
+            font-weight: bolder;
+            line-height: 1.5;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box01">
+        <p>
+            便是一定要她說不行無線那就，時期頭髮漫畫狀態任何引擎安徽只不過第一個先進性硬盤，筆者深入網址晶片笑着世紀讓我走出內地動。
+        </p>
+    </div>
+    <div class="box02">
+        <p>
+            雖然書記自主咱們列表模組我一大小法規漸漸，無論產權，運行一塊就像學習防治中學此處聰明擴大，至少兩次趕緊還是推出儀器，老。
+        </p>
+    </div>
+    <div class="box03">
+        <p>
+            指揮團結一張，文字草魚手段作用軟體失敗舉報瞬間任務實際上，網上所有，觀察這段認定討論文明現象，輕鬆。
+        </p>
+    </div>
+    <div class="box04">
+        <p>
+            尺寸本次面前哈哈儘量來的客戶，統計女士我的心的說規劃打印，我說指標一直回到，組合採購訓練程式，球隊。
+        </p>
+    </div>
+    <div class="box05">
+        <p>
+            外掛門口字幕全體通用網域名稱，下面不起專輯，市場價除了，相對而是登錄我愛先後東京互動校長，驚人疾病一口氣，大連資金，求。
+        </p>
+    </div>
+</body>
+
+</html>

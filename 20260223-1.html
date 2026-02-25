@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS複習!</title>
+    <link rel="stylesheet" href="/css/mycss-ai.css">
+    <style>
+        .box01 {
+            width: 400px;
+            height: 400px;
+            /* background: linear-gradient(135deg,rgb(200,200,150),rgb(100,100,100),rgb(50,200,177),rgb(255,1,1)); */
+
+            background-color: var(--cave-800);
+
+            margin-top: 50px;
+            margin-left: 50px;
+
+            padding: 50px;
+
+            box-sizing: border-box;
+
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px 5px var(--crimson-500);
+            /* X軸 Y軸 模糊度  發散度*/
+
+            color: var(--gold-300);
+            font-size: 28px;
+            font-weight: bolder;
+            line-height: 1.6;
+            letter-spacing: 4px;
+
+            /* 設定hover的變化時間 */
+            transition:
+                transform 2s,
+                color 2s,
+                letter-spacing 5s,
+                background-color 5s
+        }
+
+        .box01:hover {
+            /* background: linear-gradient(270deg,rgb(00,200,150),rgb(100,0,100),rgb(50,2,177),rgb(25,1,1)); */
+
+            background-color: var(--crystal-500);
+
+            transform: translateX(-50px) translateY(-5px) scale(1) rotate(0deg);
+
+            box-shadow: 5px -5px 12px 2px var(--cave-600);
+
+            color: var(--crimson-500);
+
+            letter-spacing: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box01">
+        <p>
+            留言板要在作品發生路線，交通看看想要正好，建築笑話採訪，昨日兩個，降價住了，上。
+        </p>
+    </div>
+</body>
+
+</html>

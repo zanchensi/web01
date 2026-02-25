@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+body {
+        font-family: "Zen Maru Gothic", sans-serif;
+}
+
+:root {
+
+        /* ============================= */
+        /*   Raspberry Tart - Luxury     */
+        /* ============================= */
+
+        /* ===== 品牌主色：Raspberry ===== */
+        --raspberry-50: #F6EDEE;
+        --raspberry-100: #EEDCDD;
+        --raspberry-200: #E3BFC2;
+        --raspberry-300: #D49BA0;
+        --raspberry-400: #C1767D;
+        --raspberry-500: #9A1B27;
+        /* 品牌主色 */
+        --raspberry-600: #851722;
+        --raspberry-700: #70131C;
+        --raspberry-800: #631F16;
+        /* 深莓紅 */
+        --raspberry-900: #3F0E12;
+
+        /* ===== 奶油塔皮 Cream ===== */
+        --cream-50: #FFFCF7;
+        --cream-100: #F9F3EA;
+        --cream-200: #F1E7DA;
+        --cream-300: #E4DACE;
+        /* 原塔皮色 */
+        --cream-400: #D6C6B6;
+        --cream-500: #C5B3A1;
+
+        /* ===== 霧金 Caramel Gold ===== */
+        --gold-100: #FFF6DA;
+        --gold-200: #FBE7B5;
+        --gold-300: #F2D98A;
+        --gold-400: #E5BB4B;
+        /* 原焦糖金 */
+        --gold-500: #C9A53E;
+        --gold-600: #A8842F;
+        --gold-700: #7F6522;
+
+        /* ===== 莓紫深色 Blueberry Plum ===== */
+        --plum-100: #E6E7F2;
+        --plum-200: #C9CCE4;
+        --plum-300: #A5A9CF;
+        --plum-400: #747BA9;
+        /* 原色 */
+        --plum-500: #5F6691;
+        --plum-600: #3B3857;
+        /* 深莓紫 */
+        --plum-700: #2A283F;
+
+        /* ===== 清新薄荷點綴 Mint Accent ===== */
+        --mint-100: #E6F4F8;
+        --mint-200: #CBE7EF;
+        --mint-300: #9FD3E0;
+        --mint-400: #498EAF;
+        /* 原色 */
+        --mint-500: #3A748C;
+
+        /* ===== 中性色系 (高級網站關鍵) ===== */
+        --neutral-100: #F8F6F2;
+        --neutral-200: #ECE8E1;
+        --neutral-300: #D8D2C8;
+        --neutral-400: #B7B0A4;
+        --neutral-500: #8C857A;
+        --neutral-600: #5F5A52;
+        --neutral-700: #3E3A34;
+
+        /* ===== 文字系統 ===== */
+        --text-primary: var(--plum-600);
+        --text-secondary: var(--neutral-500);
+        --text-light: #FFFFFF;
+
+        /* ===== 商業陰影系統 ===== */
+        --shadow-soft: 0 10px 30px rgba(154, 27, 39, 0.12);
+        --shadow-medium: 0 15px 40px rgba(154, 27, 39, 0.18);
+        --shadow-strong: 0 20px 60px rgba(99, 31, 22, 0.25);
+
+        /* ===== 高級漸層按鈕 ===== */
+        --gradient-primary: linear-gradient(135deg,
+                        #9A1B27,
+                        #70131C);
+
+        --gradient-gold: linear-gradient(135deg,
+                        #F2D98A,
+                        #C9A53E);
+
+}
